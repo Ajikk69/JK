@@ -31,10 +31,10 @@ kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["u874a7502c02896b2edbb3445c2615d35"]
-owner = ["u874a7502c02896b2edbb3445c2615d35"]
-admin = ["u874a7502c02896b2edbb3445c2615d35"]
-staff = ["u874a7502c02896b2edbb3445c2615d35"]
+creator = ["u1b5ef2e7b35de4af4f138a177fde662f"]
+owner = ["u1b5ef2e7b35de4af4f138a177fde662f"]
+admin = ["u1b5ef2e7b35de4af4f138a177fde662f"]
+staff = ["u1b5ef2e7b35de4af4f138a177fde662f"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -360,7 +360,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╭═══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════ J1kk ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Message ══════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
@@ -377,8 +377,8 @@ def help():
                   "║»» " + key + "Listadmin\n" + \
 				  "║»» " + key + "Status\n" + \
 				  "║»════════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~tytydsss" + "\n" + \
+                  "╰═════ CREATOR: ©J1kk™"
     return helpMessage
     
     
@@ -387,7 +387,7 @@ def helpcreator():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╭═════════════════════════" + "\n" + \
-                  "║»»══════ Aditmadzs ════════" + "\n" + \
+                  "║»»══════ J1kk ════════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
                   "║»»══════ Help BOT ═══════" + "\n" + \
                   "║»════════════════════════" + "\n" + \
@@ -402,15 +402,13 @@ def helpcreator():
                   "║»» " + key + "Set respon:「Text」\n" + \
                   "║»» " + key + "Set welcome:「Text」\n" + \
                   "║»» " + key + "Set leave:「Text」\n" + \
-                  "║»» " + key + "Ditname:「Name」\n" + \
-                  "║»» " + key + "Dit1name:「Name」\n" + \
-                  "║»» " + key + "Dit2name:「Name」\n" + \
-                  "║»» " + key + "Ditname:「Name」\n" + \
-				  "║»» " + key + "Dit3name:「Name」\n" + \
-                  "║»» " + key + "Dit1up「Foto」\n" + \
-                  "║»» " + key + "Dit2up「Foto」\n" + \
-                  "║»» " + key + "Dit3up「Foto」\n" + \
-				  "║»» " + key + "Dit4up「Foto」\n" + \
+                  "║»» " + key + "Jikname:「Name」\n" + \
+                  "║»» " + key + "Jik1name:「Name」\n" + \
+                  "║»» " + key + "Jik2name:「Name」\n" + \
+                  "║»» " + key + "Jik3name:「Name」\n" + \
+                  "║»» " + key + "Jik1up「Foto」\n" + \
+                  "║»» " + key + "Jik2up「Foto」\n" + \
+                  "║»» " + key + "Jik3up「Foto」\n" + \
                   "║»» " + key + "Gift:「Mid」「Jumlah」\n" + \
                   "║»» " + key + "Spam:「Mid」「Jumlah」\n" + \
 				  "║»» " + key + "Spamtag:「jumlahnya」\n" + \
@@ -423,15 +421,15 @@ def helpcreator():
                   "║»» " + key + "Resetkey\n" + \
 				  "║»» " + key + "Self「on/off」\n" + \
                   "║»═════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~tytydsss" + "\n" + \
+                  "╰═════ CREATOR: ©J1kk™"
     return helpMessage1
 
 def helpblacklist():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage3 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════  ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Blacklist ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -444,15 +442,15 @@ def helpblacklist():
 				  "║»» " + key + "Unban「@」\n" + \
 				  "║»» " + key + "Unban:on\n" + \
 				  "║»══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~tytydsss" + "\n" + \
+                  "╰═════ CREATOR: ©J1kk™"
     return helpMessage3
 
 def helpadmin():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage4 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════  ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Admin ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -471,15 +469,15 @@ def helpadmin():
                   "║»» " + key + "Staffadd「@」\n" + \
                   "║»» " + key + "Staffdell「@」\n" + \
                   "║»═══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~tytydsss" + "\n" + \
+                  "╰═════ CREATOR: ©J1kk™"
     return helpMessage4
     	
 def helpsetting():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage5 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════ J1kk ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Setting ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -493,21 +491,22 @@ def helpsetting():
 				  "║»» " + key + "Unsend「on/off」\n" + \
                   "║»» " + key + "Welcome「on/off」\n" + \
                   "║»═══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~tytydsss" + "\n" + \
+                  "╰═════ CREATOR: ©J1kk™"
     return helpMessage5
     
 def helpprotect():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage6 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════  ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Protect ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
                   "║»»═══════ List Menu ═══════" + "\n" + \
-				  "║»» " + key + "Join dit\n" + \
-				  "║»» " + key + "Ditpro 「on/off」\n" + \
+				  "║»» " + key + "J1kk\n" + \
+      				  "║»» " + key + "Bye\n" + \
+				  "║»» " + key + "Jikpro 「on/off」\n" + \
                   "║»» " + key + "Notag「on/off」\n" + \
                   "║»» " + key + "Protecturl「on/off」\n" + \
                   "║»» " + key + "Protectjoin「on/off」\n" + \
@@ -515,15 +514,15 @@ def helpprotect():
                   "║»» " + key + "Protectcancel「on/off」\n" + \
                   "║»» " + key + "Protectinvite「on/off」\n" + \
 				  "║»═══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~tytydsss" + "\n" + \
+                  "╰═════ CREATOR: ©J1kk™"
     return helpMessage6
 	
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage8 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════  ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help BOT ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -542,7 +541,7 @@ def helpbot():
 				  "║»» " + key + "Respon\n" + \
 				  "║»» " + key + "Restart\n" + \
 				  "║»» " + key + "Runtime\n" + \
-				  "║»» " + key + "Speed/Sp\n" + \
+				  "║»» " + key + "Sp\n" + \
                   "║»» " + key + "Sprespon\n" + \
 				  "║»» " + key + "Stealname「@」\n" + \
                   "║»» " + key + "Stealbio「@」\n" + \
@@ -551,8 +550,8 @@ def helpbot():
                   "║»» " + key + "Stealvideoprofile「@」\n" + \
                   "║»» " + key + "Tagall\n" + \
                   "║»══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~tytydsss" + "\n" + \
+                  "╰═════ CREATOR: ©J1kk™"
     return helpMessage8
 
 def bot(op):
@@ -1561,10 +1560,10 @@ def bot(op):
                         elif cmd == "about" or cmd == "About":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               sendMention(msg.to, sender, "「 Aditmadzs BOT 」\n")
+                               sendMention(msg.to, sender, "「 J1kk BOT 」\n")
                                aditmadzs.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
 
-                        elif cmd == "me" or text.lower() == 'mek':
+                        elif cmd == "me" or text.lower() == 'me':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                msg.contentType = 13
@@ -1885,23 +1884,23 @@ def bot(op):
                                    aditmadzs.sendMessage(msg.to, "Nama : "+str(x.name)+ "\nUrl grup : http://line.me/R/ti/g/"+gurl)
 
 #===========BOT UPDATE============#
-                        elif cmd == "ditup":
+                        elif cmd == "jikup":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 Setmain["ADITMADZSfoto"][mid] = True
                                 aditmadzs.sendMessage(msg.to,"Kirim fotonya.....")
                                 
-                        elif cmd == "dit1up":
+                        elif cmd == "jik1up":
                             if msg._from in admin:
                                 Setmain["ADITMADZSfoto"][Amid] = True
                                 ki.sendMessage(msg.to,"Kirim fotonya.....")
                                 
-                        elif cmd == "dit2up":
+                        elif cmd == "jik2up":
                             if msg._from in admin:
                                 Setmain["ADITMADZSfoto"][Bmid] = True
                                 kk.sendMessage(msg.to,"Kirim fotonya.....")
                                 
-                        elif cmd == "dit3up":
+                        elif cmd == "jik3up":
                             if msg._from in admin:
                                 Setmain["ADITMADZSfoto"][Cmid] = True
                                 kc.sendMessage(msg.to,"Kirim fotonya.....")
@@ -1916,7 +1915,7 @@ def bot(op):
                                 aditmadzs.updateProfile(profile)
                                 aditmadzs.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
-                        elif cmd.startswith("dit1name: "):
+                        elif cmd.startswith("jik1name: "):
                           if msg._from in admin:
                             separate = msg.text.split(" ")
                             string = msg.text.replace(separate[0] + " ","")
@@ -1926,7 +1925,7 @@ def bot(op):
                                 ki.updateProfile(profile)
                                 ki.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
-                        elif cmd.startswith("dit2name: "):
+                        elif cmd.startswith("jik2name: "):
                           if msg._from in admin:
                             separate = msg.text.split(" ")
                             string = msg.text.replace(separate[0] + " ","")
@@ -1936,7 +1935,7 @@ def bot(op):
                                 kk.updateProfile(profile)
                                 kk.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
-                        elif cmd.startswith("dit3name: "):
+                        elif cmd.startswith("jik3name: "):
                           if msg._from in admin:
                             separate = msg.text.split(" ")
                             string = msg.text.replace(separate[0] + " ","")
@@ -1947,7 +1946,7 @@ def bot(op):
                                 kc.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "tagall" or text.lower() == 'hai':
+                        elif cmd == "tl" or text.lower() == 'tl':
                           if wait["selfbot"] == True:
                                group = aditmadzs.getGroup(msg.to)
                                nama = [contact.mid for contact in group.members]
@@ -2082,7 +2081,7 @@ def bot(op):
                                 kk.sendMessage(msg.to,responsename2)
                                 kc.sendMessage(msg.to,responsename3)
     
-                        elif cmd == "join dit":
+                        elif cmd == "j1kk":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = aditmadzs.getGroup(msg.to)
@@ -2098,7 +2097,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kc.updateGroup(G)
 
-                        elif cmd == "bye dit":
+                        elif cmd == "bye":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = aditmadzs.getGroup(msg.to)
@@ -2121,7 +2120,7 @@ def bot(op):
                                 get_contact_time = time.time() - get_contact_time_start
                                 aditmadzs.sendMessage(msg.to, " »» Aditmadzs Speed respon\n\n - Get Profile\n   %.10f\n - Get Contact\n   %.10f\n - Get Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
-                        elif cmd == "speed" or cmd == "sp":
+                        elif cmd == "sp" or cmd == "sp":
                           if wait["selfbot"] == True:
                                start = time.time()
                                print("Speed")
